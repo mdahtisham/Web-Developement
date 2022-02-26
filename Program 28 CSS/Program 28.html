@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+        h1{
+            background-color: red;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            
+        }
+     /*   div p{
+            color: blue;
+            font-weight: bold;
+            background-color: yellow;
+        }       */
+
+    /*    div > p{
+            color: blue;
+            font-weight: bold;
+            background-color: yellow;
+        }       */
+
+        div + p{
+            color: blue;
+            font-weight: bold;
+            background-color: yellow;
+        }  
+
+    </style>
+</head>
+<body>
+    <h1>Selectors</h1>
+    <div class="container">
+        <div class="row">
+            <p>It is a paragraph</p>
+            <li><p>it is paragraph</p></li>
+        </div>
+        <p>It is another paragraph</p>
+    </div>
+    It is third paragraph
+</body>
+</html>
